@@ -1,0 +1,430 @@
+2026-04-23T05:17:06.945448715Z [inf]  Starting Container
+2026-04-23T05:17:08.290362100Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} PROXY_URL:
+2026-04-23T05:17:08.290374978Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} CHATPROXY:
+2026-04-23T05:17:08.290384070Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} LICENSE_CODE:
+2026-04-23T05:17:08.290391514Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:08.290399340Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} SESSION_MAX_AGE: 720
+2026-04-23T05:17:08.290410496Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:08.290418576Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} RECORD_CONVERSATION: false
+2026-04-23T05:17:08.290426632Z [inf]  2026-04-23 13:17:07.049 [INFO] {26a6f4949fe4a818ec03660c94ad0305} PORT: 8080
+2026-04-23T05:17:08.290435156Z [inf]  2026-04-23 13:17:07.050 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:08.290443236Z [inf]  2026-04-23 13:17:07.050 [INFO] {26a6f4949fe4a818ec03660c94ad0305} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:08.290451260Z [inf]  2026-04-23 13:17:07.050 [INFO] {26a6f4949fe4a818ec03660c94ad0305} AUDIT_LIMIT_URL:
+2026-04-23T05:17:08.290479747Z [inf]  2026-04-23 13:17:07.049 [DEBU] {26a6f4949fe4a818ec03660c94ad0305} module cool init start ...
+2026-04-23T05:17:08.290486384Z [inf]  2026-04-23 13:17:07.049 [DEBU] {26a6f4949fe4a818ec03660c94ad0305} 当前运行模式 dev
+2026-04-23T05:17:08.290494589Z [inf]  2026-04-23 13:17:07.049 [DEBU] {26a6f4949fe4a818ec03660c94ad0305} 当前实例ID: 7505b401000di0a2qch8r99100d3gao1
+2026-04-23T05:17:08.290502723Z [inf]  2026-04-23 13:17:07.049 [DEBU] {26a6f4949fe4a818ec03660c94ad0305} 是否缓存模式: true
+2026-04-23T05:17:08.290510239Z [inf]  2026-04-23 13:17:07.049 [DEBU] {26a6f4949fe4a818ec03660c94ad0305} module cool init finished ...
+2026-04-23T05:17:09.550030946Z [inf]  2026/04/23 13:17:07 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:09.550037628Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:09.550045055Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:09.550052347Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:09.550056626Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:09.550063209Z [inf]  2026-04-23 13:17:07.050 [INFO] {26a6f4949fe4a818ec03660c94ad0305} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:09.550064052Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc00031bd80?})
+2026-04-23T05:17:09.550066026Z [inf]  2026-04-23 13:17:07.050 [INFO] {26a6f4949fe4a818ec03660c94ad0305} APIAUTH:
+2026-04-23T05:17:09.550073746Z [inf]  2026-04-23 13:17:07.050 [INFO] {26a6f4949fe4a818ec03660c94ad0305} DEFENSE_ENABLED: false
+2026-04-23T05:17:09.550078257Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:09.550082862Z [inf]  2026-04-23 13:17:07.050 [INFO] {26a6f4949fe4a818ec03660c94ad0305} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:09.550091401Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:09.550092009Z [inf]  
+2026-04-23T05:17:09.550092239Z [err]  	panic: failed to connect database
+2026-04-23T05:17:09.550101666Z [err]  panic({0x16982c0?, 0xc00003c740?})
+2026-04-23T05:17:09.550103861Z [err]  
+2026-04-23T05:17:09.550112330Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:09.550113672Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:11.234280460Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:11.234287766Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc00031bd80})
+2026-04-23T05:17:11.234294890Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:11.234302161Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:11.234309592Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:11.234316337Z [inf]  2026-04-23 13:17:08.289 [DEBU] {eea5dede9fe4a81882dddc5967f3c70d} module cool init start ...
+2026-04-23T05:17:11.234323923Z [inf]  2026-04-23 13:17:08.289 [DEBU] {eea5dede9fe4a81882dddc5967f3c70d} 当前运行模式 dev
+2026-04-23T05:17:11.234330425Z [inf]  2026-04-23 13:17:08.289 [DEBU] {eea5dede9fe4a81882dddc5967f3c70d} 当前实例ID: 7505b401000di0a2qwzjeo7100r3cieb
+2026-04-23T05:17:11.234337214Z [inf]  2026-04-23 13:17:08.289 [DEBU] {eea5dede9fe4a81882dddc5967f3c70d} 是否缓存模式: true
+2026-04-23T05:17:11.234344342Z [inf]  2026-04-23 13:17:08.289 [DEBU] {eea5dede9fe4a81882dddc5967f3c70d} module cool init finished ...
+2026-04-23T05:17:11.234351090Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} PROXY_URL:
+2026-04-23T05:17:11.234357869Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} CHATPROXY:
+2026-04-23T05:17:11.234364067Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} LICENSE_CODE:
+2026-04-23T05:17:11.234370747Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:11.234377175Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} SESSION_MAX_AGE: 720
+2026-04-23T05:17:11.234383810Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:12.648187072Z [inf]  2026-04-23 13:17:08.291 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} AUDIT_LIMIT_URL:
+2026-04-23T05:17:12.648191124Z [inf]  
+2026-04-23T05:17:12.648200972Z [inf]  2026-04-23 13:17:08.291 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} APIAUTH:
+2026-04-23T05:17:12.648204955Z [inf]  2026/04/23 13:17:08 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:12.648207215Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} RECORD_CONVERSATION: false
+2026-04-23T05:17:12.648211625Z [inf]  2026-04-23 13:17:08.291 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:12.648212587Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:12.648215807Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:12.648222825Z [inf]  2026-04-23 13:17:08.291 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} DEFENSE_ENABLED: false
+2026-04-23T05:17:12.648223649Z [inf]  2026-04-23 13:17:08.289 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} PORT: 8080
+2026-04-23T05:17:12.648223659Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:12.648233156Z [inf]  2026-04-23 13:17:08.291 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:12.648233870Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:12.648235518Z [inf]  2026-04-23 13:17:08.290 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:12.648246790Z [inf]  2026-04-23 13:17:08.291 [INFO] {eea5dede9fe4a81882dddc5967f3c70d} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:12.648248495Z [err]  	panic: failed to connect database
+2026-04-23T05:17:12.648258365Z [err]  
+2026-04-23T05:17:14.416237483Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:14.416247398Z [err]  panic({0x16982c0?, 0xc00003c740?})
+2026-04-23T05:17:14.416255280Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:14.416262925Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:14.416270649Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:14.416334878Z [inf]  2026-04-23 13:17:09.554 [DEBU] {ffea3f2aa0e4a8184686f31e28806388} module cool init finished ...
+2026-04-23T05:17:14.416344562Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} PROXY_URL:
+2026-04-23T05:17:14.416345499Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc0004ffac0?})
+2026-04-23T05:17:14.416354035Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:14.416362183Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc0004ffac0})
+2026-04-23T05:17:14.416369588Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:14.416377342Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:14.416383704Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:14.416389989Z [inf]  2026-04-23 13:17:09.554 [DEBU] {ffea3f2aa0e4a8184686f31e28806388} module cool init start ...
+2026-04-23T05:17:14.416395696Z [inf]  2026-04-23 13:17:09.554 [DEBU] {ffea3f2aa0e4a8184686f31e28806388} 当前运行模式 dev
+2026-04-23T05:17:14.416401464Z [inf]  2026-04-23 13:17:09.554 [DEBU] {ffea3f2aa0e4a8184686f31e28806388} 当前实例ID: 7505b401000di0a2rhwm2yy1003zsfil
+2026-04-23T05:17:14.416408126Z [inf]  2026-04-23 13:17:09.554 [DEBU] {ffea3f2aa0e4a8184686f31e28806388} 是否缓存模式: true
+2026-04-23T05:17:16.200465213Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} CHATPROXY:
+2026-04-23T05:17:16.200469148Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} LICENSE_CODE:
+2026-04-23T05:17:16.200473587Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:16.200478488Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} SESSION_MAX_AGE: 720
+2026-04-23T05:17:16.200482554Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:16.200486594Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} RECORD_CONVERSATION: false
+2026-04-23T05:17:16.200490550Z [inf]  2026-04-23 13:17:09.554 [INFO] {ffea3f2aa0e4a8184686f31e28806388} PORT: 8080
+2026-04-23T05:17:16.200495591Z [inf]  2026-04-23 13:17:09.555 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:16.200499542Z [inf]  2026-04-23 13:17:09.555 [INFO] {ffea3f2aa0e4a8184686f31e28806388} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:16.200503689Z [inf]  2026-04-23 13:17:09.555 [INFO] {ffea3f2aa0e4a8184686f31e28806388} AUDIT_LIMIT_URL:
+2026-04-23T05:17:16.200507628Z [inf]  2026-04-23 13:17:09.555 [INFO] {ffea3f2aa0e4a8184686f31e28806388} APIAUTH:
+2026-04-23T05:17:16.200511647Z [inf]  2026-04-23 13:17:09.555 [INFO] {ffea3f2aa0e4a8184686f31e28806388} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:16.200516313Z [inf]  2026-04-23 13:17:09.555 [INFO] {ffea3f2aa0e4a8184686f31e28806388} DEFENSE_ENABLED: false
+2026-04-23T05:17:16.200521058Z [inf]  2026-04-23 13:17:09.555 [INFO] {ffea3f2aa0e4a8184686f31e28806388} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:16.200528394Z [inf]  
+2026-04-23T05:17:16.200532849Z [inf]  2026/04/23 13:17:09 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:17.400099176Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:17.400106061Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:17.400112738Z [err]  panic({0x16982c0?, 0xc0002fc050?})
+2026-04-23T05:17:17.400119221Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:17.400125914Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:17.400132381Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:17.400138306Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc000459f00?})
+2026-04-23T05:17:17.400144480Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:17.400150621Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc000459f00})
+2026-04-23T05:17:17.400156937Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:17.400162843Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:17.400169009Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:17.400175539Z [inf]  2026-04-23 13:17:10.868 [DEBU] {a8cd8578a0e4a8180530841edd94a4f8} module cool init start ...
+2026-04-23T05:17:17.400312052Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:17.400317138Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:17.400322128Z [err]  	panic: failed to connect database
+2026-04-23T05:17:17.400327202Z [err]  
+2026-04-23T05:17:17.400331916Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:18.575028156Z [inf]  2026-04-23 13:17:10.868 [DEBU] {a8cd8578a0e4a8180530841edd94a4f8} 当前实例ID: 7505b401000di0a2s3na4hh100arq7ng
+2026-04-23T05:17:18.575037240Z [inf]  2026-04-23 13:17:10.868 [DEBU] {a8cd8578a0e4a8180530841edd94a4f8} 是否缓存模式: true
+2026-04-23T05:17:18.575039890Z [inf]  2026-04-23 13:17:10.868 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:18.575044497Z [inf]  2026-04-23 13:17:10.868 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} CHATPROXY:
+2026-04-23T05:17:18.575047457Z [inf]  2026-04-23 13:17:10.868 [DEBU] {a8cd8578a0e4a8180530841edd94a4f8} module cool init finished ...
+2026-04-23T05:17:18.575050069Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} SESSION_MAX_AGE: 720
+2026-04-23T05:17:18.575060817Z [inf]  2026-04-23 13:17:10.868 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} PROXY_URL:
+2026-04-23T05:17:18.575061145Z [inf]  2026-04-23 13:17:10.868 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} LICENSE_CODE:
+2026-04-23T05:17:18.575062674Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:18.575113537Z [inf]  2026-04-23 13:17:10.868 [DEBU] {a8cd8578a0e4a8180530841edd94a4f8} 当前运行模式 dev
+2026-04-23T05:17:18.576165507Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} RECORD_CONVERSATION: false
+2026-04-23T05:17:18.576179727Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} PORT: 8080
+2026-04-23T05:17:18.576204397Z [inf]  2026-04-23 13:17:10.869 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:18.576213302Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:18.576221820Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} AUDIT_LIMIT_URL:
+2026-04-23T05:17:18.576257960Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} APIAUTH:
+2026-04-23T05:17:19.447984059Z [err]  panic({0x16982c0?, 0xc0002320a0?})
+2026-04-23T05:17:19.447995946Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:19.448003932Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:19.448012415Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:19.448014600Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:19.448022697Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc000409b40?})
+2026-04-23T05:17:19.448023538Z [err]  	panic: failed to connect database
+2026-04-23T05:17:19.448026077Z [inf]  
+2026-04-23T05:17:19.448033221Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:19.448035958Z [inf]  2026/04/23 13:17:10 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:19.448043171Z [err]  
+2026-04-23T05:17:19.448046251Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:19.448054242Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:19.448054464Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:19.448062834Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:19.448070790Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:19.448091320Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:19.448097448Z [inf]  2026-04-23 13:17:10.869 [INFO] {a8cd8578a0e4a8180530841edd94a4f8} DEFENSE_ENABLED: false
+2026-04-23T05:17:19.449794228Z [inf]  2026-04-23 13:17:12.170 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:19.449804160Z [inf]  2026-04-23 13:17:12.170 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} RECORD_CONVERSATION: false
+2026-04-23T05:17:19.450236754Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc000409b40})
+2026-04-23T05:17:19.450242274Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:19.450248251Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:19.450253661Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:19.450267073Z [inf]  2026-04-23 13:17:12.169 [DEBU] {c0d90bc6a0e4a818d7661f2d51b7f951} module cool init start ...
+2026-04-23T05:17:19.450280186Z [inf]  2026-04-23 13:17:12.169 [DEBU] {c0d90bc6a0e4a818d7661f2d51b7f951} 当前运行模式 dev
+2026-04-23T05:17:19.450286823Z [inf]  2026-04-23 13:17:12.169 [DEBU] {c0d90bc6a0e4a818d7661f2d51b7f951} 当前实例ID: 7505b401000di0a2sp5jjpf100iza2id
+2026-04-23T05:17:19.450310641Z [inf]  2026-04-23 13:17:12.169 [DEBU] {c0d90bc6a0e4a818d7661f2d51b7f951} 是否缓存模式: true
+2026-04-23T05:17:19.450351491Z [inf]  2026-04-23 13:17:12.169 [DEBU] {c0d90bc6a0e4a818d7661f2d51b7f951} module cool init finished ...
+2026-04-23T05:17:19.450422044Z [inf]  2026-04-23 13:17:12.169 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} PROXY_URL:
+2026-04-23T05:17:19.450429627Z [inf]  2026-04-23 13:17:12.170 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} CHATPROXY:
+2026-04-23T05:17:19.450451205Z [inf]  2026-04-23 13:17:12.170 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} LICENSE_CODE:
+2026-04-23T05:17:19.450457415Z [inf]  2026-04-23 13:17:12.170 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:19.450463123Z [inf]  2026-04-23 13:17:12.170 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} SESSION_MAX_AGE: 720
+2026-04-23T05:17:19.453042811Z [inf]  2026-04-23 13:17:12.172 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:19.453046494Z [err]  
+2026-04-23T05:17:19.453053755Z [inf]  
+2026-04-23T05:17:19.453061322Z [inf]  2026/04/23 13:17:12 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:19.453073393Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:19.453080422Z [inf]  2026-04-23 13:17:12.172 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:19.453086862Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:19.453090333Z [inf]  2026-04-23 13:17:12.172 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} AUDIT_LIMIT_URL:
+2026-04-23T05:17:19.453096088Z [err]  	panic: failed to connect database
+2026-04-23T05:17:19.453100204Z [inf]  2026-04-23 13:17:12.172 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} APIAUTH:
+2026-04-23T05:17:19.453108224Z [inf]  2026-04-23 13:17:12.172 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:19.453115261Z [inf]  2026-04-23 13:17:12.172 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} DEFENSE_ENABLED: false
+2026-04-23T05:17:19.453133173Z [inf]  2026-04-23 13:17:12.170 [INFO] {c0d90bc6a0e4a818d7661f2d51b7f951} PORT: 8080
+2026-04-23T05:17:19.453139883Z [inf]  2026-04-23 13:17:12.172 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:19.456287985Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:19.456299547Z [err]  panic({0x16982c0?, 0xc0002c40c0?})
+2026-04-23T05:17:19.456306736Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:19.456443904Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:19.456444662Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:19.456453762Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:19.469239300Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc00015fa80})
+2026-04-23T05:17:19.469365365Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:19.469372557Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc00015fa80?})
+2026-04-23T05:17:19.469379650Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:19.477721629Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:19.477728695Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:19.477735068Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:19.477741166Z [inf]  2026-04-23 13:17:13.495 [DEBU] {82297414a1e4a818794b3d19a3575563} module cool init start ...
+2026-04-23T05:17:19.477747578Z [inf]  2026-04-23 13:17:13.495 [DEBU] {82297414a1e4a818794b3d19a3575563} 当前运行模式 dev
+2026-04-23T05:17:19.477754287Z [inf]  2026-04-23 13:17:13.495 [DEBU] {82297414a1e4a818794b3d19a3575563} 当前实例ID: 7505b401000di0a2tb38nbi100im0vxt
+2026-04-23T05:17:19.477764940Z [inf]  2026-04-23 13:17:13.495 [DEBU] {82297414a1e4a818794b3d19a3575563} 是否缓存模式: true
+2026-04-23T05:17:19.477774369Z [inf]  2026-04-23 13:17:13.495 [DEBU] {82297414a1e4a818794b3d19a3575563} module cool init finished ...
+2026-04-23T05:17:19.477780129Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} PROXY_URL:
+2026-04-23T05:17:19.477786673Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} CHATPROXY:
+2026-04-23T05:17:19.477792219Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} LICENSE_CODE:
+2026-04-23T05:17:19.477798968Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:19.477804294Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} SESSION_MAX_AGE: 720
+2026-04-23T05:17:19.478319321Z [err]  
+2026-04-23T05:17:19.478329651Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:19.478329746Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:19.478342617Z [inf]  2026-04-23 13:17:13.502 [INFO] {82297414a1e4a818794b3d19a3575563} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:19.478343935Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} RECORD_CONVERSATION: false
+2026-04-23T05:17:19.478349097Z [inf]  2026-04-23 13:17:13.502 [INFO] {82297414a1e4a818794b3d19a3575563} AUDIT_LIMIT_URL:
+2026-04-23T05:17:19.478355504Z [inf]  2026-04-23 13:17:13.495 [INFO] {82297414a1e4a818794b3d19a3575563} PORT: 8080
+2026-04-23T05:17:19.478356556Z [inf]  2026-04-23 13:17:13.502 [INFO] {82297414a1e4a818794b3d19a3575563} APIAUTH:
+2026-04-23T05:17:19.478366880Z [inf]  2026-04-23 13:17:13.498 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:19.478367997Z [inf]  2026-04-23 13:17:13.502 [INFO] {82297414a1e4a818794b3d19a3575563} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:19.478375601Z [inf]  2026-04-23 13:17:13.502 [INFO] {82297414a1e4a818794b3d19a3575563} DEFENSE_ENABLED: false
+2026-04-23T05:17:19.478386118Z [inf]  2026-04-23 13:17:13.502 [INFO] {82297414a1e4a818794b3d19a3575563} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:19.478419592Z [inf]  
+2026-04-23T05:17:19.478428467Z [inf]  2026/04/23 13:17:13 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:19.478457477Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:19.478466678Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:19.478473015Z [err]  	panic: failed to connect database
+2026-04-23T05:17:19.481734503Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:19.481739553Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:19.481745053Z [err]  panic({0x16982c0?, 0xc00023e030?})
+2026-04-23T05:17:19.481748945Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:19.481752783Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:19.481756814Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:19.481760876Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc0005a50c0?})
+2026-04-23T05:17:19.481765193Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:19.481770440Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc0005a50c0})
+2026-04-23T05:17:19.481774626Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:19.481779588Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:19.481783944Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:19.481788194Z [inf]  2026-04-23 13:17:14.826 [DEBU] {8dc28764a1e4a818f402fc34fff9d946} module cool init start ...
+2026-04-23T05:17:19.481792414Z [inf]  2026-04-23 13:17:14.827 [DEBU] {8dc28764a1e4a818f402fc34fff9d946} 当前运行模式 dev
+2026-04-23T05:17:19.481796347Z [inf]  2026-04-23 13:17:14.827 [DEBU] {8dc28764a1e4a818f402fc34fff9d946} 当前实例ID: 7505b401000di0a2tx3y91s100okd7ns
+2026-04-23T05:17:19.481801831Z [inf]  2026-04-23 13:17:14.827 [DEBU] {8dc28764a1e4a818f402fc34fff9d946} 是否缓存模式: true
+2026-04-23T05:17:19.481805796Z [inf]  2026-04-23 13:17:14.827 [DEBU] {8dc28764a1e4a818f402fc34fff9d946} module cool init finished ...
+2026-04-23T05:17:19.484000965Z [inf]  2026-04-23 13:17:14.828 [INFO] {8dc28764a1e4a818f402fc34fff9d946} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:19.484019780Z [inf]  2026-04-23 13:17:14.828 [INFO] {8dc28764a1e4a818f402fc34fff9d946} DEFENSE_ENABLED: false
+2026-04-23T05:17:19.484028537Z [inf]  2026-04-23 13:17:14.828 [INFO] {8dc28764a1e4a818f402fc34fff9d946} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:19.484037680Z [inf]  
+2026-04-23T05:17:19.484126650Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} PROXY_URL:
+2026-04-23T05:17:19.484132651Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} CHATPROXY:
+2026-04-23T05:17:19.484138735Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} LICENSE_CODE:
+2026-04-23T05:17:19.484145181Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:19.484152593Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} SESSION_MAX_AGE: 720
+2026-04-23T05:17:19.484159803Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:19.484168575Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} RECORD_CONVERSATION: false
+2026-04-23T05:17:19.484175665Z [inf]  2026-04-23 13:17:14.827 [INFO] {8dc28764a1e4a818f402fc34fff9d946} PORT: 8080
+2026-04-23T05:17:19.484184238Z [inf]  2026-04-23 13:17:14.828 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:19.484191464Z [inf]  2026-04-23 13:17:14.828 [INFO] {8dc28764a1e4a818f402fc34fff9d946} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:19.484197636Z [inf]  2026-04-23 13:17:14.828 [INFO] {8dc28764a1e4a818f402fc34fff9d946} AUDIT_LIMIT_URL:
+2026-04-23T05:17:19.484204913Z [inf]  2026-04-23 13:17:14.828 [INFO] {8dc28764a1e4a818f402fc34fff9d946} APIAUTH:
+2026-04-23T05:17:19.490424342Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:19.490435965Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc0004d9380?})
+2026-04-23T05:17:19.490444496Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:19.490452099Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc0004d9380})
+2026-04-23T05:17:19.490458738Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:19.490466865Z [inf]  2026/04/23 13:17:14 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:19.490467927Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:19.490474623Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:19.490477340Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:19.490482021Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:19.490488056Z [err]  	panic: failed to connect database
+2026-04-23T05:17:19.490493488Z [err]  
+2026-04-23T05:17:19.490498899Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:19.490507885Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:19.490514891Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:19.490519512Z [err]  panic({0x16982c0?, 0xc0002db9c0?})
+2026-04-23T05:17:19.490524292Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:19.490528763Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:19.493900511Z [inf]  2026-04-23 13:17:16.179 [DEBU] {f57126b5a1e4a8187eadbf4b32b3f358} module cool init start ...
+2026-04-23T05:17:19.493907243Z [inf]  2026-04-23 13:17:16.180 [DEBU] {f57126b5a1e4a8187eadbf4b32b3f358} 当前运行模式 dev
+2026-04-23T05:17:19.493917527Z [inf]  2026-04-23 13:17:16.180 [DEBU] {f57126b5a1e4a8187eadbf4b32b3f358} 当前实例ID: 7505b401000di0a2ujhimbc1005s54jp
+2026-04-23T05:17:19.493925031Z [inf]  2026-04-23 13:17:16.180 [DEBU] {f57126b5a1e4a8187eadbf4b32b3f358} 是否缓存模式: true
+2026-04-23T05:17:19.493932779Z [inf]  2026-04-23 13:17:16.180 [DEBU] {f57126b5a1e4a8187eadbf4b32b3f358} module cool init finished ...
+2026-04-23T05:17:19.493941621Z [inf]  2026-04-23 13:17:16.180 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} PROXY_URL:
+2026-04-23T05:17:19.493946661Z [inf]  2026-04-23 13:17:16.180 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} CHATPROXY:
+2026-04-23T05:17:19.493953244Z [inf]  2026-04-23 13:17:16.180 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} LICENSE_CODE:
+2026-04-23T05:17:19.493959816Z [inf]  2026-04-23 13:17:16.180 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:19.493966370Z [inf]  2026-04-23 13:17:16.181 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} SESSION_MAX_AGE: 720
+2026-04-23T05:17:19.493973250Z [inf]  2026-04-23 13:17:16.181 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:19.493979108Z [inf]  2026-04-23 13:17:16.181 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} RECORD_CONVERSATION: false
+2026-04-23T05:17:19.493985008Z [inf]  2026-04-23 13:17:16.181 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} PORT: 8080
+2026-04-23T05:17:19.493990039Z [inf]  2026-04-23 13:17:16.189 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:19.493996537Z [inf]  2026-04-23 13:17:16.189 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:19.494002959Z [inf]  2026-04-23 13:17:16.189 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} AUDIT_LIMIT_URL:
+2026-04-23T05:17:19.498344060Z [inf]  2026-04-23 13:17:16.189 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} APIAUTH:
+2026-04-23T05:17:19.498350033Z [inf]  2026-04-23 13:17:16.189 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:19.498354988Z [inf]  2026-04-23 13:17:16.189 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} DEFENSE_ENABLED: false
+2026-04-23T05:17:19.498360069Z [inf]  2026-04-23 13:17:16.189 [INFO] {f57126b5a1e4a8187eadbf4b32b3f358} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:19.498365436Z [inf]  
+2026-04-23T05:17:19.498370430Z [inf]  2026/04/23 13:17:16 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:19.498375511Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:19.498381123Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:19.498386584Z [err]  	panic: failed to connect database
+2026-04-23T05:17:19.498392040Z [err]  
+2026-04-23T05:17:19.498397372Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:19.498402443Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:19.498406996Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:19.498411215Z [err]  panic({0x16982c0?, 0xc00042c030?})
+2026-04-23T05:17:19.498415634Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:19.498419899Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:19.498424271Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:19.498428858Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc0004d1380?})
+2026-04-23T05:17:19.501877492Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:19.501883297Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc0004d1380})
+2026-04-23T05:17:19.501887373Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:19.501891495Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:19.501895458Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:19.501899601Z [inf]  2026-04-23 13:17:17.436 [DEBU] {e1c60300a2e4a8184c535576985b5457} module cool init start ...
+2026-04-23T05:17:19.501903661Z [inf]  2026-04-23 13:17:17.436 [DEBU] {e1c60300a2e4a8184c535576985b5457} 当前运行模式 dev
+2026-04-23T05:17:19.501909150Z [inf]  2026-04-23 13:17:17.436 [DEBU] {e1c60300a2e4a8184c535576985b5457} 当前实例ID: 7505b401000di0a2v498vhd100tuf9yf
+2026-04-23T05:17:19.501914443Z [inf]  2026-04-23 13:17:17.436 [DEBU] {e1c60300a2e4a8184c535576985b5457} 是否缓存模式: true
+2026-04-23T05:17:19.501918240Z [inf]  2026-04-23 13:17:17.436 [DEBU] {e1c60300a2e4a8184c535576985b5457} module cool init finished ...
+2026-04-23T05:17:19.501922189Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} PROXY_URL:
+2026-04-23T05:17:19.501926337Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} CHATPROXY:
+2026-04-23T05:17:19.501930340Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} LICENSE_CODE:
+2026-04-23T05:17:19.501934823Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:19.501938840Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} SESSION_MAX_AGE: 720
+2026-04-23T05:17:19.501942850Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:19.505485301Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} RECORD_CONVERSATION: false
+2026-04-23T05:17:19.505489610Z [inf]  2026-04-23 13:17:17.436 [INFO] {e1c60300a2e4a8184c535576985b5457} PORT: 8080
+2026-04-23T05:17:19.505494727Z [inf]  2026-04-23 13:17:17.437 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:19.505499111Z [inf]  2026-04-23 13:17:17.437 [INFO] {e1c60300a2e4a8184c535576985b5457} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:19.505503236Z [inf]  2026-04-23 13:17:17.437 [INFO] {e1c60300a2e4a8184c535576985b5457} AUDIT_LIMIT_URL:
+2026-04-23T05:17:19.505506962Z [inf]  2026-04-23 13:17:17.437 [INFO] {e1c60300a2e4a8184c535576985b5457} APIAUTH:
+2026-04-23T05:17:19.505510866Z [inf]  2026-04-23 13:17:17.437 [INFO] {e1c60300a2e4a8184c535576985b5457} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:19.505515078Z [inf]  2026-04-23 13:17:17.438 [INFO] {e1c60300a2e4a8184c535576985b5457} DEFENSE_ENABLED: false
+2026-04-23T05:17:19.505519856Z [inf]  2026-04-23 13:17:17.438 [INFO] {e1c60300a2e4a8184c535576985b5457} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:19.505524034Z [inf]  
+2026-04-23T05:17:19.505528897Z [inf]  2026/04/23 13:17:17 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:19.505533676Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:19.505537875Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:19.505542052Z [err]  	panic: failed to connect database
+2026-04-23T05:17:19.505546395Z [err]  
+2026-04-23T05:17:19.505550516Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:19.505554592Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:19.509725421Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:19.509730753Z [err]  panic({0x16982c0?, 0xc00042a060?})
+2026-04-23T05:17:19.509736051Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:19.509741339Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:19.509746166Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:19.509752155Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc00018e0c0?})
+2026-04-23T05:17:19.509759476Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:19.509766416Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc00018e0c0})
+2026-04-23T05:17:19.509773567Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:19.509780434Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:19.509788479Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:19.509801613Z [inf]  2026-04-23 13:17:18.735 [DEBU] {4cf1864da2e4a818c6147f343e054cae} module cool init start ...
+2026-04-23T05:17:19.509808686Z [inf]  2026-04-23 13:17:18.735 [DEBU] {4cf1864da2e4a818c6147f343e054cae} 当前运行模式 dev
+2026-04-23T05:17:19.509815750Z [inf]  2026-04-23 13:17:18.735 [DEBU] {4cf1864da2e4a818c6147f343e054cae} 当前实例ID: 7505b401000di0a2vpr31eb100xmqy2p
+2026-04-23T05:17:19.509821865Z [inf]  2026-04-23 13:17:18.735 [DEBU] {4cf1864da2e4a818c6147f343e054cae} 是否缓存模式: true
+2026-04-23T05:17:19.509827222Z [inf]  2026-04-23 13:17:18.735 [DEBU] {4cf1864da2e4a818c6147f343e054cae} module cool init finished ...
+2026-04-23T05:17:19.509832865Z [inf]  2026-04-23 13:17:18.735 [INFO] {4cf1864da2e4a818c6147f343e054cae} PROXY_URL:
+2026-04-23T05:17:19.520650682Z [inf]  2026-04-23 13:17:18.735 [INFO] {4cf1864da2e4a818c6147f343e054cae} CHATPROXY:
+2026-04-23T05:17:19.520660371Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} LICENSE_CODE:
+2026-04-23T05:17:19.520667595Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:19.520682915Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} SESSION_MAX_AGE: 720
+2026-04-23T05:17:19.520691044Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:19.520696989Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} RECORD_CONVERSATION: false
+2026-04-23T05:17:19.520702701Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} PORT: 8080
+2026-04-23T05:17:19.520709423Z [inf]  2026-04-23 13:17:18.737 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:19.520716237Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:19.520723692Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} AUDIT_LIMIT_URL:
+2026-04-23T05:17:19.520730488Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} APIAUTH:
+2026-04-23T05:17:19.520737128Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:19.520743872Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} DEFENSE_ENABLED: false
+2026-04-23T05:17:19.520750467Z [inf]  2026-04-23 13:17:18.737 [INFO] {4cf1864da2e4a818c6147f343e054cae} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:19.520757726Z [inf]  
+2026-04-23T05:17:19.520764976Z [inf]  2026/04/23 13:17:18 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:19.524020176Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:19.524028702Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:19.524033729Z [err]  	panic: failed to connect database
+2026-04-23T05:17:19.524044009Z [err]  
+2026-04-23T05:17:19.524050329Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:19.524056385Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:19.524061950Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:19.524067950Z [err]  panic({0x16982c0?, 0xc00043a0a0?})
+2026-04-23T05:17:19.524073624Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:19.524079169Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:19.524085415Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:19.524090598Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc0001bc0c0?})
+2026-04-23T05:17:19.524095843Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:19.524101629Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc0001bc0c0})
+2026-04-23T05:17:19.524108049Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:19.524113704Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:19.524124776Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29
+2026-04-23T05:17:21.648088413Z [inf]  2026-04-23 13:17:20.580 [DEBU] {444339bba2e4a818a7570021579d2b2a} module cool init start ...
+2026-04-23T05:17:21.648096783Z [inf]  2026-04-23 13:17:20.580 [DEBU] {444339bba2e4a818a7570021579d2b2a} 当前运行模式 dev
+2026-04-23T05:17:21.648105716Z [inf]  2026-04-23 13:17:20.580 [DEBU] {444339bba2e4a818a7570021579d2b2a} 当前实例ID: 7505b401000di0a2wk9e46l100jvgbpw
+2026-04-23T05:17:21.648117024Z [inf]  2026-04-23 13:17:20.580 [DEBU] {444339bba2e4a818a7570021579d2b2a} 是否缓存模式: true
+2026-04-23T05:17:21.648130099Z [inf]  2026-04-23 13:17:20.580 [DEBU] {444339bba2e4a818a7570021579d2b2a} module cool init finished ...
+2026-04-23T05:17:21.648137477Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} PROXY_URL:
+2026-04-23T05:17:21.648145803Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} CHATPROXY:
+2026-04-23T05:17:21.648152652Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} LICENSE_CODE:
+2026-04-23T05:17:21.648159807Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} LIVEKIT_URL: livekit.grok.com
+2026-04-23T05:17:21.648169231Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} SESSION_MAX_AGE: 720
+2026-04-23T05:17:21.648662988Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} PROHIBIT_MULTIPLE_LOGIN: false
+2026-04-23T05:17:21.648674160Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} RECORD_CONVERSATION: false
+2026-04-23T05:17:21.648682715Z [inf]  2026-04-23 13:17:20.580 [INFO] {444339bba2e4a818a7570021579d2b2a} PORT: 8080
+2026-04-23T05:17:21.648688874Z [inf]  2026-04-23 13:17:20.581 [DEBU] SetServerRoot path: /app/resource/public
+2026-04-23T05:17:21.648695946Z [inf]  2026-04-23 13:17:20.582 [INFO] {444339bba2e4a818a7570021579d2b2a} OAUTH_URL: http://127.0.0.1:8080/oauth IsOauthFree: false
+2026-04-23T05:17:21.648702729Z [inf]  2026-04-23 13:17:20.582 [INFO] {444339bba2e4a818a7570021579d2b2a} AUDIT_LIMIT_URL:
+2026-04-23T05:17:22.535043488Z [inf]  2026-04-23 13:17:20.582 [INFO] {444339bba2e4a818a7570021579d2b2a} APIAUTH:
+2026-04-23T05:17:22.535048577Z [inf]  2026-04-23 13:17:20.582 [INFO] {444339bba2e4a818a7570021579d2b2a} ALLOW_DUPLICATE_USER_TOKEN: false
+2026-04-23T05:17:22.535052751Z [inf]  2026-04-23 13:17:20.582 [INFO] {444339bba2e4a818a7570021579d2b2a} DEFENSE_ENABLED: false
+2026-04-23T05:17:22.535057983Z [inf]  2026-04-23 13:17:20.582 [INFO] {444339bba2e4a818a7570021579d2b2a} AUTO_BAN_ENABLED: false AUTO_BAN_WINDOW: 10 AUTO_BAN_MAX_REQUESTS: 4 HONEYPOT_DURATION: 24
+2026-04-23T05:17:22.535062367Z [inf]  
+2026-04-23T05:17:22.535066728Z [inf]  2026/04/23 13:17:20 [35m/go/pkg/mod/github.com/cool-team-official/cool-admin-go/contrib/drivers/mysql@v1.5.11/mysql.go:51
+2026-04-23T05:17:22.535071190Z [inf]  [0m[31m[error] [0mfailed to initialize database, got error dial tcp: lookup mysql on [fd12::10]:53: no such host
+2026-04-23T05:17:22.535075317Z [err]  panic: dial tcp: lookup mysql on [fd12::10]:53: no such host [recovered]
+2026-04-23T05:17:22.535080030Z [err]  	panic: failed to connect database
+2026-04-23T05:17:22.535084720Z [err]  
+2026-04-23T05:17:22.535216240Z [err]  goroutine 1 [running]:
+2026-04-23T05:17:22.535222531Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB.func1()
+2026-04-23T05:17:22.535226891Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:27 +0x36
+2026-04-23T05:17:22.535231161Z [err]  panic({0x16982c0?, 0xc000596030?})
+2026-04-23T05:17:22.535235589Z [err]  	/usr/local/go/src/runtime/panic.go:792 +0x132
+2026-04-23T05:17:22.535239760Z [err]  github.com/cool-team-official/cool-admin-go/cool.InitDB({0x1909bba, 0x7})
+2026-04-23T05:17:22.535243930Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:33 +0x14d
+2026-04-23T05:17:22.535247536Z [err]  github.com/cool-team-official/cool-admin-go/cool.getDBbyModel({0x1b940d8?, 0xc0001bc0c0?})
+2026-04-23T05:17:22.536829411Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:49 +0x85
+2026-04-23T05:17:22.536835488Z [err]  github.com/cool-team-official/cool-admin-go/cool.CreateTable({0x1b940d8, 0xc0001bc0c0})
+2026-04-23T05:17:22.536841380Z [err]  	/go/pkg/mod/github.com/cool-team-official/cool-admin-go/cool@v1.5.11/initdb.go:62 +0x37
+2026-04-23T05:17:22.536847209Z [err]  backend/modules/grok/model.init.0()
+2026-04-23T05:17:22.536852351Z [err]  	/workspaces/grok-share-server/backend/modules/grok/model/grok_ban_token.go:34 +0x29

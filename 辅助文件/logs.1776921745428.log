@@ -1,0 +1,203 @@
+2026-04-23T05:21:36.236547765Z [inf]  [snapshot] received sha256:0485fca131a6b1d9b96d1f4cc10b8e62109b9e5196fb98269317d2cfad43965a md5:21a229b8b2ba008486416f93b827d677
+2026-04-23T05:21:36.236622858Z [inf]  receiving snapshot
+2026-04-23T05:21:36.486140141Z [dbg]  found 'Dockerfile' at 'Dockerfile'
+2026-04-23T05:21:36.486320202Z [inf]  analyzing snapshot
+2026-04-23T05:21:37.119973382Z [inf]  unpacking archive
+2026-04-23T05:21:37.347878887Z [inf]  uploading snapshot
+2026-04-23T05:21:37.404918579Z [inf]  scheduling build on Metal builder "builder-bnfysq"
+2026-04-23T05:21:37.525828639Z [inf]  [internal] load build definition from Dockerfile
+2026-04-23T05:21:37.525846256Z [inf]  [internal] load build definition from Dockerfile
+2026-04-23T05:21:37.526014107Z [inf]  [internal] load build definition from Dockerfile
+2026-04-23T05:21:37.574026226Z [inf]  [internal] load build definition from Dockerfile
+2026-04-23T05:21:37.585394904Z [inf]  [internal] load metadata for docker.io/library/python:3.10-slim-bookworm
+2026-04-23T05:21:37.724010942Z [inf]  [internal] load metadata for docker.io/library/python:3.10-slim-bookworm
+2026-04-23T05:21:37.724756480Z [inf]  [internal] load .dockerignore
+2026-04-23T05:21:37.725070120Z [inf]  [internal] load .dockerignore
+2026-04-23T05:21:37.725171813Z [inf]  [internal] load .dockerignore
+2026-04-23T05:21:37.783592660Z [inf]  [internal] load .dockerignore
+2026-04-23T05:21:37.798475288Z [inf]  [7/7] RUN mkdir -p assets/videos assets/audios assets/outputs results
+2026-04-23T05:21:37.798479354Z [inf]  [6/7] COPY . .
+2026-04-23T05:21:37.798479865Z [inf]  [5/7] RUN python -m pip install --upgrade pip     && python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.2.2     && python -m pip install -r requirements.txt
+2026-04-23T05:21:37.798480015Z [inf]  [4/7] COPY requirements.txt ./
+2026-04-23T05:21:37.798480165Z [inf]  [internal] load build context
+2026-04-23T05:21:37.798480305Z [inf]  [3/7] RUN apt-get update     && apt-get install -y --no-install-recommends ffmpeg     && rm -rf /var/lib/apt/lists/*
+2026-04-23T05:21:37.798480435Z [inf]  [2/7] WORKDIR /app
+2026-04-23T05:21:37.798480576Z [inf]  [1/7] FROM docker.io/library/python:3.10-slim-bookworm@sha256:8ad64ba4c969828c644c996e0f9239f0a84e01588464ec6ca79e507f6d4575b0
+2026-04-23T05:21:37.798547856Z [inf]  [1/7] FROM docker.io/library/python:3.10-slim-bookworm@sha256:8ad64ba4c969828c644c996e0f9239f0a84e01588464ec6ca79e507f6d4575b0
+2026-04-23T05:21:37.798839003Z [inf]  [internal] load build context
+2026-04-23T05:21:37.810074011Z [inf]  [1/7] FROM docker.io/library/python:3.10-slim-bookworm@sha256:8ad64ba4c969828c644c996e0f9239f0a84e01588464ec6ca79e507f6d4575b0
+2026-04-23T05:21:37.810988633Z [inf]  [internal] load build context
+2026-04-23T05:21:37.892945284Z [inf]  [internal] load build context
+2026-04-23T05:21:37.909868131Z [inf]  [2/7] WORKDIR /app
+2026-04-23T05:21:37.909870245Z [inf]  [3/7] RUN apt-get update     && apt-get install -y --no-install-recommends ffmpeg     && rm -rf /var/lib/apt/lists/*
+2026-04-23T05:21:37.909870835Z [inf]  [4/7] COPY requirements.txt ./
+2026-04-23T05:21:37.909873249Z [inf]  [5/7] RUN python -m pip install --upgrade pip     && python -m pip install --index-url https://download.pytorch.org/whl/cpu torch==2.2.2     && python -m pip install -r requirements.txt
+2026-04-23T05:21:39.293229207Z [inf]  Requirement already satisfied: pip in /usr/local/lib/python3.10/site-packages (23.0.1)
+
+2026-04-23T05:21:39.418435957Z [inf]  Collecting pip
+
+2026-04-23T05:21:39.45100731Z [inf]    Downloading pip-26.0.1-py3-none-any.whl (1.8 MB)
+
+2026-04-23T05:21:39.48963088Z [inf]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 49.5 MB/s eta 0:00:00
+
+2026-04-23T05:21:39.538727294Z [inf]  Installing collected packages: pip
+  Attempting uninstall: pip
+
+2026-04-23T05:21:39.539362297Z [inf]      Found existing installation: pip 23.0.1
+
+2026-04-23T05:21:39.665217528Z [inf]      Uninstalling pip-23.0.1:
+
+2026-04-23T05:21:39.899174538Z [inf]        Successfully uninstalled pip-23.0.1
+
+2026-04-23T05:21:40.61446464Z [inf]  Successfully installed pip-26.0.1
+
+2026-04-23T05:21:40.61477772Z [inf]  WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+2026-04-23T05:21:41.401663397Z [inf]  Looking in indexes: https://download.pytorch.org/whl/cpu
+
+2026-04-23T05:21:41.678132808Z [inf]  Collecting torch==2.2.2
+
+2026-04-23T05:21:41.7583024Z [inf]    Downloading https://download-r2.pytorch.org/whl/cpu/torch-2.2.2%2Bcpu-cp310-cp310-linux_x86_64.whl (186.8 MB)
+
+2026-04-23T05:21:42.307330327Z [inf]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 186.8/186.8 MB 344.1 MB/s  0:00:00
+2026-04-23T05:21:42.307488124Z [inf]  
+2026-04-23T05:21:42.631016063Z [inf]  Collecting filelock (from torch==2.2.2)
+
+2026-04-23T05:21:42.688204933Z [inf]    Downloading filelock-3.25.2-py3-none-any.whl.metadata (2.0 kB)
+
+2026-04-23T05:21:42.782418976Z [inf]  Collecting typing-extensions>=4.8.0 (from torch==2.2.2)
+
+2026-04-23T05:21:42.788658683Z [inf]    Downloading https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+
+2026-04-23T05:21:42.96258435Z [inf]  Collecting sympy (from torch==2.2.2)
+
+2026-04-23T05:21:42.967049626Z [inf]    Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+
+2026-04-23T05:21:43.097658236Z [inf]  Collecting networkx (from torch==2.2.2)
+
+2026-04-23T05:21:43.102858554Z [inf]    Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+
+2026-04-23T05:21:43.206195908Z [inf]  Collecting jinja2 (from torch==2.2.2)
+
+2026-04-23T05:21:43.211896757Z [inf]    Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+
+2026-04-23T05:21:43.334326601Z [inf]  Collecting fsspec (from torch==2.2.2)
+
+2026-04-23T05:21:43.339002954Z [inf]    Downloading fsspec-2026.2.0-py3-none-any.whl.metadata (10 kB)
+
+2026-04-23T05:21:43.549671651Z [inf]  Collecting MarkupSafe>=2.0 (from jinja2->torch==2.2.2)
+
+2026-04-23T05:21:43.555450487Z [inf]    Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+
+2026-04-23T05:21:43.882103843Z [inf]  Collecting mpmath<1.4,>=1.1.0 (from sympy->torch==2.2.2)
+
+2026-04-23T05:21:43.886467878Z [inf]    Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+
+2026-04-23T05:21:43.896269857Z [inf]  Downloading https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+
+2026-04-23T05:21:43.901007151Z [inf]  Downloading filelock-3.25.2-py3-none-any.whl (26 kB)
+
+2026-04-23T05:21:43.906835641Z [inf]  Downloading fsspec-2026.2.0-py3-none-any.whl (202 kB)
+
+2026-04-23T05:21:43.92554634Z [inf]  Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (134 kB)
+
+2026-04-23T05:21:43.931560228Z [inf]  Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+
+2026-04-23T05:21:43.935571243Z [inf]  Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+
+2026-04-23T05:21:43.949800461Z [inf]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 161.2 MB/s  0:00:00
+2026-04-23T05:21:43.950075133Z [inf]  
+2026-04-23T05:21:43.954360539Z [inf]  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+
+2026-04-23T05:21:43.976440029Z [inf]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 323.8 MB/s  0:00:00
+
+2026-04-23T05:21:43.984233366Z [inf]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 402.4 MB/s  0:00:00
+
+2026-04-23T05:21:58.160349415Z [inf]  
+2026-04-23T05:21:58.162705638Z [inf]  WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+2026-04-23T05:21:59.240955552Z [inf]  Collecting fastapi<1,>=0.115 (from -r requirements.txt (line 1))
+
+2026-04-23T05:21:59.296848429Z [inf]    Downloading fastapi-0.136.0-py3-none-any.whl.metadata (28 kB)
+
+2026-04-23T05:21:59.328159222Z [inf]  Collecting uvicorn<1,>=0.30 (from -r requirements.txt (line 2))
+
+2026-04-23T05:21:59.33091858Z [inf]    Downloading uvicorn-0.45.0-py3-none-any.whl.metadata (6.7 kB)
+
+2026-04-23T05:21:59.333038098Z [inf]  Requirement already satisfied: jinja2<4,>=3.1 in /usr/local/lib/python3.10/site-packages (from -r requirements.txt (line 3)) (3.1.6)
+
+2026-04-23T05:21:59.342777794Z [inf]    Downloading python_multipart-0.0.26-py3-none-any.whl.metadata (2.1 kB)
+
+2026-04-23T05:21:59.444377472Z [inf]  Collecting pydantic<3,>=2.7 (from -r requirements.txt (line 5))
+
+2026-04-23T05:21:59.447743519Z [inf]    Downloading pydantic-2.13.3-py3-none-any.whl.metadata (108 kB)
+
+2026-04-23T05:21:59.725477667Z [inf]  Collecting SQLAlchemy<3,>=2.0 (from -r requirements.txt (line 6))
+
+2026-04-23T05:21:59.728851426Z [inf]    Downloading sqlalchemy-2.0.49-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (9.5 kB)
+
+2026-04-23T05:21:59.750838889Z [inf]  Collecting requests<3,>=2.32 (from -r requirements.txt (line 7))
+
+2026-04-23T05:21:59.785224854Z [inf]  Collecting paramiko<4,>=3.4 (from -r requirements.txt (line 9))
+
+2026-04-23T05:21:59.834137362Z [inf]    Downloading python_jose-3.5.0-py2.py3-none-any.whl.metadata (5.5 kB)
+
+2026-04-23T05:21:59.844319782Z [inf]  Collecting PyJWT<3,>=2.9 (from -r requirements.txt (line 12))
+
+2026-04-23T05:21:59.84717287Z [inf]    Downloading pyjwt-2.12.1-py3-none-any.whl.metadata (4.1 kB)
+
+2026-04-23T05:21:59.854944795Z [inf]  Collecting oss2<3,>=2.19 (from -r requirements.txt (line 13))
+
+2026-04-23T05:21:59.910099835Z [inf]    Installing build dependencies: started
+
+2026-04-23T05:22:01.098090756Z [inf]    Installing build dependencies: finished with status 'done'
+
+2026-04-23T05:22:01.695971022Z [inf]    Preparing metadata (pyproject.toml): started
+
+2026-04-23T05:22:02.281772564Z [inf]    Preparing metadata (pyproject.toml): finished with status 'done'
+
+2026-04-23T05:22:02.312465261Z [inf]    Downloading playwright-1.58.0-py3-none-manylinux1_x86_64.whl.metadata (3.5 kB)
+
+2026-04-23T05:22:02.48622505Z [inf]  Collecting numpy<2,>=1.26 (from -r requirements.txt (line 15))
+
+2026-04-23T05:22:02.4907929Z [inf]    Downloading numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+
+2026-04-23T05:22:02.503495057Z [inf]  Collecting openai-whisper==20231117 (from -r requirements.txt (line 16))
+
+2026-04-23T05:22:02.512592951Z [inf]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 798.6/798.6 kB 520.5 MB/s  0:00:00
+2026-04-23T05:22:02.512753411Z [inf]  
+2026-04-23T05:22:02.556627364Z [inf]    Installing build dependencies: started
+
+2026-04-23T05:22:03.794118104Z [inf]    Installing build dependencies: finished with status 'done'
+
+2026-04-23T05:22:03.795267949Z [inf]    Getting requirements to build wheel: started
+
+2026-04-23T05:22:04.331475391Z [inf]    Getting requirements to build wheel: finished with status 'error'
+
+2026-04-23T05:22:04.340591571Z [inf]    error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [17 lines of output]
+      Traceback (most recent call last):
+        File "/usr/local/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/usr/local/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+        File "/usr/local/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/tmp/pip-build-env-hqzeryos/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+        File "/tmp/pip-build-env-hqzeryos/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+        File "/tmp/pip-build-env-hqzeryos/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+        File "/tmp/pip-build-env-hqzeryos/overlay/lib/python3.10/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+        File "<string>", line 5, in <module>
+      ModuleNotFoundError: No module named 'pkg_resources'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+2026-04-23T05:22:04.470798699Z [inf]  ERROR: Failed to build 'openai-whisper' when getting requirements to build wheel
